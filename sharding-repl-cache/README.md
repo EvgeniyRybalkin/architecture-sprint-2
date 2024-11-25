@@ -2,16 +2,14 @@
 
 ## Как запустить
 
-Перейти в директорию `sharding-repl-cache`
-
-Запустить mongodb с шардингом, реплицированием, кешированием и приложение
+Запускаем mongodb с шардингом и приложение
 
 ```shell
 docker compose up -d
 ```
 
 
-Выполнить скрипт для настройки и заполнения mongodb данными
+Выполнить скрипт для настройки шардирования и заполнения mongodb данными
 
 ```shell
 ./scripts/mongo-init.sh
@@ -110,9 +108,3 @@ curl --silent http://ifconfig.me
 ## Доступные эндпоинты
 
 Список доступных эндпоинтов, swagger http://<ip виртуальной машины>:8080/docs
-
-
-
-# Схемы
-
-Схемы drawio [ya.disk](https://disk.yandex.ru/d/J00RwjaUFJCTEg)
